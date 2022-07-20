@@ -1,6 +1,6 @@
 @echo off
 
-WinSCP\WinSCP.exe /console /script="connection.bat" /log="conn.log"
+WinSCP\WinSCP.exe /console /script="connection.script" /log="conn.log"
 
 if errorlevel 1 goto failure
 if errorlevel 0 goto success
